@@ -1,2 +1,2 @@
 # Docker-assignment
-Docker command practice and I multi container application
+Docker command practice and create multi container application
