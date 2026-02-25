@@ -52,24 +52,21 @@ The Dockerfile performs the following steps:
 
 ## Summary
 I learned how to:
-- Start containers and inspect changes
-- Commit container changes into images
-- Build custom images using Dockerfiles
-- Tag and run custom images
-- Inspect image layers and understand how Docker builds images
+- Pull and list Docker images  
+- Run containers and execute commands inside them  
+- Use interactive shells  
+- Start and inspect existing containers  
+
+This is a foundational step toward understanding Docker workflows and containerization.
+This assignment summarizes the basic Docker and Linux commands practiced during the session. 
+These commands help I understand how to run containers, pull images, explore containers,
+and execute commands inside them.
 
 This process shows how Docker enables consistent, repeatable builds and easy sharing 
 of containerized applications.
 
-## Follow this CMD
-# Docker Commands Practice - README
 
-## Overview
-This README summarizes the basic Docker and Linux commands practiced during the session. 
-These commands help I understand how to run containers, pull images, explore containers,
-and execute commands inside them.
 
----
 
 ## Commands Used
 
@@ -132,17 +129,6 @@ and execute commands inside them.
 ### 9. Execute Commands Inside a Running Container
 - `docker container exec <container-id> ls`  
   Runs `ls` inside a running container.
-
----
-
-## Summary
-These commands help I learn how to:
-- Pull and list Docker images  
-- Run containers and execute commands inside them  
-- Use interactive shells  
-- Start and inspect existing containers  
-
-This is a foundational step toward understanding Docker workflows and containerization.
 
 ---
 
